@@ -1,0 +1,61 @@
+{
+  "a319dec7e60dcc68e588d759a4c4f380" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61eddc83566e69d3",
+      "status" : "broken",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line \nHost info: host: 'MatebookNR', ip: '192.168.56.1'\nBuild info: version: '4.5.3', revision: '4b786a1e430'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]",
+      "time" : {
+        "start" : 1667736377717,
+        "stop" : 1667736377733,
+        "duration" : 16
+      }
+    } ]
+  },
+  "2181f487d5d47473c74cf5f69b9f526e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7b541e8cf529270",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line \nHost info: host: 'MatebookNR', ip: '192.168.56.1'\nBuild info: version: '4.5.3', revision: '4b786a1e430'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]",
+      "time" : {
+        "start" : 1667736377789,
+        "stop" : 1667736377789,
+        "duration" : 0
+      }
+    } ]
+  },
+  "485c5f106078f9219e73323e2fdbe219" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f44e1fc818c566af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667736379432,
+        "stop" : 1667736380423,
+        "duration" : 991
+      }
+    } ]
+  }
+}

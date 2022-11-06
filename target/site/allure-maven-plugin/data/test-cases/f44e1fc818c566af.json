@@ -1,0 +1,113 @@
+{
+  "uid" : "f44e1fc818c566af",
+  "name" : "loginWithCorrectLoginAndPassword",
+  "fullName" : "tests.SuccessfulLoginTest.loginWithCorrectLoginAndPassword",
+  "historyId" : "485c5f106078f9219e73323e2fdbe219",
+  "time" : {
+    "start" : 1667736379432,
+    "stop" : 1667736380423,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1667736371776,
+      "stop" : 1667736372989,
+      "duration" : 1213
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1667736373052,
+      "stop" : 1667736379424,
+      "duration" : 6372
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1667736380441,
+      "stop" : 1667736381226,
+      "duration" : 785
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.SuccessfulLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.SuccessfulLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithCorrectLoginAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "All Pet Store Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Positive Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.SuccessfulLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MatebookNR"
+  }, {
+    "name" : "thread",
+    "value" : "16076@MatebookNR.TestNG-tests-2(17)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "CHROME"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f44e1fc818c566af.json",
+  "parameterValues" : [ "CHROME" ]
+}

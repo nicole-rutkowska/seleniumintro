@@ -1,0 +1,56 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MatebookNR",
+    "children" : [ {
+      "name" : "16076@MatebookNR.TestNG-tests-1(16)",
+      "children" : [ {
+        "name" : "loginWithIncorrectLoginAndPassword",
+        "uid" : "c7b541e8cf529270",
+        "parentUid" : "af79bdfbaff3b2a0f468f5544fcfd8ae",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1667736377789,
+          "stop" : 1667736377789,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "FIREFOX" ]
+      }, {
+        "name" : "beforeTest",
+        "uid" : "61eddc83566e69d3",
+        "parentUid" : "af79bdfbaff3b2a0f468f5544fcfd8ae",
+        "status" : "broken",
+        "time" : {
+          "start" : 1667736377717,
+          "stop" : 1667736377733,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "af79bdfbaff3b2a0f468f5544fcfd8ae"
+    }, {
+      "name" : "16076@MatebookNR.TestNG-tests-2(17)",
+      "children" : [ {
+        "name" : "loginWithCorrectLoginAndPassword",
+        "uid" : "f44e1fc818c566af",
+        "parentUid" : "4626ff23a9295a3b3ed6daf8a04c47f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667736379432,
+          "stop" : 1667736380423,
+          "duration" : 991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "4626ff23a9295a3b3ed6daf8a04c47f5"
+    } ],
+    "uid" : "3ce2e0db59ed6285884217ebdb5abc35"
+  } ]
+}

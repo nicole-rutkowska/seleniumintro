@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "beforeTest",
+    "uid" : "61eddc83566e69d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1667736377717,
+      "stop" : 1667736377733,
+      "duration" : 16
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "FIREFOX" ]
+  }, {
+    "name" : "loginWithIncorrectLoginAndPassword",
+    "uid" : "c7b541e8cf529270",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1667736377789,
+      "stop" : 1667736377789,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "FIREFOX" ]
+  }, {
+    "name" : "loginWithCorrectLoginAndPassword",
+    "uid" : "f44e1fc818c566af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1667736379432,
+      "stop" : 1667736380423,
+      "duration" : 991
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "CHROME" ]
+  } ]
+}

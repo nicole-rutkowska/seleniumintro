@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sun Nov 06 13:06:17 CET 2022","Sun Nov 06 13:06:17 CET 2022","0","All Pet Store Tests","Negative Login Tests","tests.FailedLoginTest","tests.FailedLoginTest","loginWithIncorrectLoginAndPassword","loginWithIncorrectLoginAndPassword",""
+"broken","Sun Nov 06 13:06:17 CET 2022","Sun Nov 06 13:06:17 CET 2022","16","All Pet Store Tests","Negative Login Tests","tests.FailedLoginTest","tests.FailedLoginTest","beforeTest","beforeTest",""
+"passed","Sun Nov 06 13:06:19 CET 2022","Sun Nov 06 13:06:20 CET 2022","991","All Pet Store Tests","Positive Login Tests","tests.SuccessfulLoginTest","tests.SuccessfulLoginTest","loginWithCorrectLoginAndPassword","loginWithCorrectLoginAndPassword",""

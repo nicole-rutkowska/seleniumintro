@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c7b541e8cf529270",
+  "name" : "loginWithIncorrectLoginAndPassword",
+  "time" : {
+    "start" : 1667736377789,
+    "stop" : 1667736377789,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "61eddc83566e69d3",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1667736377717,
+    "stop" : 1667736377733,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f44e1fc818c566af",
+  "name" : "loginWithCorrectLoginAndPassword",
+  "time" : {
+    "start" : 1667736379432,
+    "stop" : 1667736380423,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "FailedLoginTest",
+      "children" : [ {
+        "name" : "beforeTest",
+        "uid" : "61eddc83566e69d3",
+        "parentUid" : "80e0d837ab1edf890d1b7bc2f9b31bc4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1667736377717,
+          "stop" : 1667736377733,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "FIREFOX" ]
+      }, {
+        "name" : "loginWithIncorrectLoginAndPassword",
+        "uid" : "c7b541e8cf529270",
+        "parentUid" : "80e0d837ab1edf890d1b7bc2f9b31bc4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1667736377789,
+          "stop" : 1667736377789,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "FIREFOX" ]
+      } ],
+      "uid" : "80e0d837ab1edf890d1b7bc2f9b31bc4"
+    }, {
+      "name" : "SuccessfulLoginTest",
+      "children" : [ {
+        "name" : "loginWithCorrectLoginAndPassword",
+        "uid" : "f44e1fc818c566af",
+        "parentUid" : "a2ab22d6f7a5a432cc5b7ea4ee24647b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1667736379432,
+          "stop" : 1667736380423,
+          "duration" : 991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "CHROME" ]
+      } ],
+      "uid" : "a2ab22d6f7a5a432cc5b7ea4ee24647b"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}
